@@ -7,7 +7,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <Badge title="INÍCIO" class="mt-10 mb-3" />
+            <Badge title="INÍCIO" icon="home" class="mt-10 mb-3" />
           </div>
         </div>
         <div class="row">
@@ -23,7 +23,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <Badge title="SOBRE" class="mt-10 mb-3" />
+            <Badge title="SOBRE" icon="about" class="mt-10 mb-3" />
           </div>
         </div>
         <div class="row">
@@ -39,7 +39,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <Badge title="SERVIÇOS" class="mt-10 mb-3" />
+            <Badge title="SERVIÇOS" icon="services" class="mt-10 mb-3" />
           </div>
         </div>
         <div class="row">
@@ -94,7 +94,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <Badge title="CONTATO" class="mt-10 mb-3" />
+            <Badge title="CONTATO" icon="contact" class="mt-10 mb-3" />
           </div>
         </div>
         <div class="row">
@@ -105,35 +105,25 @@
 
         <form>
           <div class="row">
-            <div class="col-md-6">
-              <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="name" placeholder="Seu nome completo">
-                <label for="name">NOME</label>
-              </div>
+            <div class="col-md-6 mb-5">
+              <label for="name" class="form-label">NOME</label>
+              <input type="text" class="form-control" id="name" placeholder="Seu nome completo">
             </div>
-            <div class="col-md-6">
-              <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email" placeholder="Seu endereço de email">
-                <label for="email">EMAIL</label>
-              </div>
+            <div class="col-md-6 mb-5">
+              <label for="email" class="form-label">EMAIL</label>
+              <input type="email" class="form-control" id="email" placeholder="Seu endereço de email">
             </div>
-            <div class="col-md-6">
-              <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="name" placeholder="Seu número de telefone">
-                <label for="name">TELEFONE (OPCIONAL)</label>
-              </div>
+            <div class="col-md-6 mb-5">
+              <label for="name" class="form-label">TELEFONE (OPCIONAL)</label>
+              <input type="text" class="form-control" id="name" placeholder="Seu número de telefone">
             </div>
-            <div class="col-md-6">
-              <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email" placeholder="Seu endereço de email">
-                <label for="email">ASSUNTO</label>
-              </div>
+            <div class="col-md-6 mb-5">
+              <label for="email" class="form-label">ASSUNTO</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite o assunto">
             </div>
-            <div class="col-md-6">
-              <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="name" placeholder="Seu número de telefone">
-                <label for="name">MENSAGEM</label>
-              </div>
+            <div class="col-md-6 mb-5">
+              <label for="name" class="form-label">MENSAGEM</label>
+              <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva aqui a sua menasgem..." />
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-primary">ENVIAR MENSAGEM</button>

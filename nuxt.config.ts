@@ -10,5 +10,5 @@ export default defineNuxtConfig({
         'Inter': [400, 600]
       }
     }]
-  ],
+  ]
 })

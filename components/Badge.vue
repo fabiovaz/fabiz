@@ -6,7 +6,8 @@
 
 <script setup>
 defineProps({
-  title: String
+  title: String,
+  icon: String
 })
 </script>
 
