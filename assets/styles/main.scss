@@ -1,0 +1,24 @@
+$theme-colors: (
+  primary: #2AE98D,
+  dark:    #999
+);
+
+$font-family-base: 'Inter';
+$headings-font-family: 'Inter';
+
+$body-bg: #1F1F21;
+$body-color: #FFF;
+
+@import "bootstrap/scss/bootstrap";
+
+.text-color-gray  {
+  color: #999
+}
+
+.mt-10 {
+  margin-top: 10rem;
+}
+
+.container {
+  max-width: 820px;
+}
