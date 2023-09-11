@@ -1,13 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: [
-    '~/assets/styles/main.scss'
-  ],
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   modules: [
     ['@nuxtjs/google-fonts', {
       families: {
-        'Inter': [400, 600]
+        'Inter': [300, 600]
       }
     }]
   ]

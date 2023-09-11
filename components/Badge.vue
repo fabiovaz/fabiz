@@ -1,9 +1,3 @@
-<template>
-  <div class="section_badge">
-    {{ title }}
-  </div>
-</template>
-
 <script setup>
 defineProps({
   title: String,
@@ -11,14 +5,8 @@ defineProps({
 })
 </script>
 
-<style lang="scss">
-.section_badge {
-  display: inline-flex;
-  padding: 11px 18px;
-  align-items: center;
-
-  font-size: 12px;
-  border-radius: 30px;
-  border: 1px solid #565656;
-}
-</style>
+<template>
+  <div class="inline-flex py-3 px-5 text-xs border border-neutral-600 rounded-full text-white">
+    {{ title }}
+  </div>
+</template>
