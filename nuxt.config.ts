@@ -13,6 +13,9 @@ export default defineNuxtConfig({
       families: {
         'Inter': [300, 600]
       }
+    }],
+    ['nuxt-gtag', {
+      id: 'G-SHG6DD2QW2'
     }]
   ]
 })
