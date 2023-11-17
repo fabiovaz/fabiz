@@ -26,7 +26,7 @@ const dataServices = [
 
     <section id="home" class="mt-28 space-y-4">
       <Badge title="INÍCIO" icon="home" />
-      <h1 class="pt-6 text-4xl md:text-6xl leading-normal md:leading-relaxed text-white">Diga olá para a <span class="text-meadow">Fabiz</span>. Criando experiências para o seu sucesso online</h1>
+      <h1 class="pt-6 text-4xl md:text-6xl leading-normal md:leading-relaxed text-white">Diga olá para a <span class="text-meadow font-bold">Fabiz</span>. Criando experiências para o seu sucesso online</h1>
       <p class="leading-loose">Com paixão e criatividade, projetamos soluções personalizadas para atender aos sonhos e objetivos de nossos clientes. Transformamos ideias em realidade, dando vida a projetos incríveis. Sua visão é o nosso combustível, e nosso compromisso é entregar resultados excepcionais. Juntos, construímos o resultado.</p>
     </section>
 

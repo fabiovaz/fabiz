@@ -2,7 +2,7 @@
   <footer class="flex justify-between items-center">
     <div class="text-white md:text-2xl">
       Estamos em Brasília, DF
-      <div class="text-neutral-400 text-xs md:text-sm">2023 Fabiz. All Rights Reserved</div>
+      <div class="text-neutral-400 text-xs md:text-sm">{{ new Date().getFullYear() }} Fabiz. All Rights Reserved</div>
     </div>
     <div class="flex gap-2">
       <a href="#" aria-label="Acessar perfildo Instagram" class="flex border-2 border-neutral-600 w-12 h-12 justify-center items-center rounded-full">
