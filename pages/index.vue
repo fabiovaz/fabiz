@@ -20,8 +20,6 @@ const dataServices = [
 </script>
 
 <template>
-  <Header class="container max-w-3xl px-4 md:px-0 py-16" />
-
   <main class="container max-w-3xl px-4 md:px-0">
 
     <section id="home" class="mt-28 space-y-4">
@@ -39,8 +37,9 @@ const dataServices = [
     <section id="services" class="mt-28 space-y-4">
       <Badge title="SERVIÇOS" icon="services" />
       <h1 class="pt-6 text-3xl md:text-5xl leading-normal md:leading-normal text-white">Nossas <span class="text-meadow">especialidades</span></h1>
-      <div v-for="(service, index) in dataServices" :key="index">
+      <div class="space-y-4">
         <CardService
+          v-for="(service, index) in dataServices" :key="index"
           :title="service.title"
           :description="service.description"
         />
@@ -110,6 +109,4 @@ const dataServices = [
       </form> -->
     </section>
   </main>
-
-  <Footer class="container max-w-3xl px-4 md:px-0 py-16" />
 </template>
