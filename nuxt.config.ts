@@ -22,14 +22,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: [
-    ['@nuxtjs/google-fonts', {
-      families: {
-        'Inter': [300, 600]
-      }
-    }],
-    ['nuxt-gtag', {
-      id: 'G-SHG6DD2QW2'
-    }]
-  ]
+  modules: [['@nuxtjs/google-fonts', {
+    families: {
+      'Inter': [300, 600]
+    }
+  }], ['nuxt-gtag', {
+    id: 'G-SHG6DD2QW2'
+  }], '@nuxtjs/google-fonts', 'nuxt-gtag']
 })
