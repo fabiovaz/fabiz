@@ -1,3 +1,5 @@
+import tailwindcss from "@tailwindcss/vite";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
@@ -18,13 +20,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
 
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-
   modules: [['@nuxtjs/google-fonts', {
     families: {
       'Inter': [300, 600]
@@ -33,5 +28,11 @@ export default defineNuxtConfig({
     id: 'G-SHG6DD2QW2'
   }], '@nuxtjs/google-fonts', 'nuxt-gtag'],
 
-  compatibilityDate: '2024-12-27'
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
+
+  compatibilityDate: '2025-07-02'
 })
