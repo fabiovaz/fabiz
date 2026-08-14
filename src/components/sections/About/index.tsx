@@ -5,9 +5,9 @@ export default function About() {
 	return (
 		<Section id="about">
 			<Badge title="SOBRE" icon="about" />
-			<h1 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
+			<h2 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
 				Cada projeto começa com uma <span className="text-meadow">história</span> ainda melhor
-			</h1>
+			</h2>
 			<p className="max-w-xl leading-relaxed">
 				Desde o início de nossa jornada como uma empresa de soluções digitais, temos trabalhado em
 				estreita colaboração com nossos clientes, fornecendo consultoria especializada e reunindo

@@ -11,10 +11,29 @@ const inter = Inter({
 	weight: ["300", "600"],
 });
 
+const title = "Fabiz.";
+const description =
+	"Impulsionando o seu sucesso digital com soluções criativas e estratégicas. Transforme ideias em resultados surpreendentes. Descubra o poder da nossa abordagem!";
+
 export const metadata: Metadata = {
-	title: "Fabiz.",
-	description:
-		"Impulsionando o seu sucesso digital com soluções criativas e estratégicas. Transforme ideias em resultados surpreendentes. Descubra o poder da nossa abordagem!",
+	metadataBase: new URL("https://fabiz.com.br"),
+	title,
+	description,
+	openGraph: {
+		title,
+		description,
+		url: "/",
+		siteName: title,
+		locale: "pt_BR",
+		type: "website",
+		images: [{ url: "/fabiz.png", width: 1200, height: 630 }],
+	},
+	twitter: {
+		card: "summary_large_image",
+		title,
+		description,
+		images: ["/fabiz.png"],
+	},
 };
 
 export default function RootLayout({

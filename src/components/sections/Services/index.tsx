@@ -30,9 +30,9 @@ export default function Services() {
 	return (
 		<Section id="services">
 			<Badge title="SERVIÇOS" icon="services" />
-			<h1 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
+			<h2 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
 				Nossas <span className="text-meadow">especialidades</span>
-			</h1>
+			</h2>
 			<div>
 				{dataServices.map((service, i) => (
 					<CardService key={service.title} index={i + 1} title={service.title} description={service.description} />

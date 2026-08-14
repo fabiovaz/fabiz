@@ -50,9 +50,9 @@ export default function Contact() {
 	return (
 		<Section id="contact">
 			<Badge title="CONTATO" icon="contact" />
-			<h1 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
+			<h2 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
 				Vamos trabalhar <span className="text-meadow">juntos!</span>
-			</h1>
+			</h2>
 			<p className="max-w-xl leading-relaxed">
 				Vamos transformar sua ideia em resultado. Fale com a gente no Brasil ou em Portugal.
 			</p>
