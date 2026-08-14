@@ -1,29 +1,30 @@
 {
-  "name": "fabiz",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "update": "npm update",
-    "update:all": "npx npm-check-updates -u && npm install",
-    "update:interactive": "npx npm-check-updates -i",
-    "check": "npx npm-check-updates",
-    "outdated": "npm outdated"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^24",
-    "nuxt": "^3.17.6",
-    "nuxt-gtag": "3.0.3"
-  },
-  "dependencies": {
-    "@nuxtjs/google-fonts": "3.2.0",
-    "@tailwindcss/vite": "^4.1.11",
-    "install": "^0.13.0",
-    "tailwindcss": "^4.1.11"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+	"name": "fabiz",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "oxlint",
+		"lint:fix": "oxlint --fix",
+		"fmt": "oxfmt",
+		"fmt:check": "oxfmt --check"
+	},
+	"dependencies": {
+		"@next/third-parties": "^15.4.6",
+		"next": "^15.4.6",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss": "^4.1.11",
+		"@types/node": "^24",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"oxfmt": "^0.63.0",
+		"oxlint": "^1.78.0",
+		"tailwindcss": "^4.1.11",
+		"typescript": "^5"
+	},
+	"packageManager": "pnpm@11.21.0"
 }
