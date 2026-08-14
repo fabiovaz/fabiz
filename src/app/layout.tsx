@@ -16,7 +16,7 @@ const description =
 	"Impulsionando o seu sucesso digital com soluções criativas e estratégicas. Transforme ideias em resultados surpreendentes. Descubra o poder da nossa abordagem!";
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://fabiz.com.br"),
+	metadataBase: new URL("https://www.fabiz.com.br"),
 	title,
 	description,
 	openGraph: {
