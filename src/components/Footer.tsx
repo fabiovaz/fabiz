@@ -3,10 +3,7 @@ export default function Footer({ className }: Readonly<{ className?: string }>) 
 
 	return (
 		<footer className={`flex justify-between items-center ${className ?? ""}`}>
-			<div className="text-white md:text-2xl">
-				Estamos em Brasília, DF
-				<div className="text-neutral-400 text-xs md:text-sm">{year} Fabiz. All Rights Reserved</div>
-			</div>
+			<div className="text-neutral-400 text-xs md:text-sm">{year} Fabiz. All Rights Reserved</div>
 			<div className="flex gap-2">
 				<a
 					href="https://www.instagram.com/fabiz.com.br/"

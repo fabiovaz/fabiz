@@ -7,7 +7,7 @@ const navItems = [
 
 export default function Header({ className }: Readonly<{ className?: string }>) {
 	return (
-		<header className="sticky top-0 z-50 backdrop-blur">
+		<header className="sticky top-0 z-50 backdrop-blur border-b border-neutral-800">
 			<div className={`flex flex-wrap items-center justify-between gap-4 ${className ?? ""}`}>
 				<h1 className="text-3xl md:text-4xl font-semibold text-white">Fabiz.</h1>
 				<nav className="flex flex-wrap gap-x-6 gap-y-2 text-xs uppercase tracking-[0.15em] text-neutral-400">
