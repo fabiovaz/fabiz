@@ -29,7 +29,7 @@ const dataServices = [
 export default function Services() {
 	return (
 		<Section id="services">
-			<Badge title="SERVIÇOS" icon="services" />
+			<Badge title="SERVIÇOS" />
 			<h2 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
 				Nossas <span className="text-meadow">especialidades</span>
 			</h2>

@@ -4,7 +4,7 @@ import Section from "@/components/Section";
 export default function About() {
 	return (
 		<Section id="about">
-			<Badge title="SOBRE" icon="about" />
+			<Badge title="SOBRE" />
 			<h2 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
 				Cada projeto começa com uma <span className="text-meadow">história</span> ainda melhor
 			</h2>

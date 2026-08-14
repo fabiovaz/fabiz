@@ -5,13 +5,13 @@ Site institucional da Fabiz, feito em [Next.js](https://nextjs.org) com Tailwind
 ## Setup
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ## Desenvolvimento
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 Acesse `http://localhost:3000`.
@@ -19,7 +19,7 @@ Acesse `http://localhost:3000`.
 ## Build
 
 ```bash
-yarn build
+pnpm build
 ```
 
 Gera o site estático na pasta `out/`.

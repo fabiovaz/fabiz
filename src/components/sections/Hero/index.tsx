@@ -4,7 +4,7 @@ import Section from "@/components/Section";
 export default function Hero() {
 	return (
 		<Section id="home">
-			<Badge title="INÍCIO" icon="home" />
+			<Badge title="INÍCIO" />
 			<h1 className="pt-6 text-4xl md:text-6xl leading-tight md:leading-[1.05] text-white">
 				Diga olá para a{" "}
 				<span className="relative inline-block text-meadow font-bold">

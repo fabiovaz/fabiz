@@ -49,7 +49,7 @@ function MailIcon() {
 export default function Contact() {
 	return (
 		<Section id="contact">
-			<Badge title="CONTATO" icon="contact" />
+			<Badge title="CONTATO" />
 			<h2 className="pt-6 text-3xl md:text-5xl leading-tight text-white">
 				Vamos trabalhar <span className="text-meadow">juntos!</span>
 			</h2>

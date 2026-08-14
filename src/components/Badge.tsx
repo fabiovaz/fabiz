@@ -1,6 +1,5 @@
 interface BadgeProps {
 	title: string;
-	icon?: string;
 	className?: string;
 }
 
