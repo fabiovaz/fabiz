@@ -8,10 +8,12 @@ export default function Footer({ className }: Readonly<{ className?: string }>) 
 				<a
 					href="https://www.instagram.com/fabiz.com.br/"
 					target="_blank"
-					aria-label="Acessar perfil do Instagram"
+					rel="noopener noreferrer"
+					aria-label="Perfil da Fabiz no Instagram (abre em nova aba)"
 					className="flex border-2 border-neutral-600 w-12 h-12 justify-center items-center rounded-full text-neutral-400 transition-colors hover:border-meadow hover:text-meadow"
 				>
 					<svg
+						aria-hidden="true"
 						width="20"
 						height="20"
 						viewBox="0 0 20 20"
